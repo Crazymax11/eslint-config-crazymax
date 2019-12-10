@@ -1,0 +1,36 @@
+{
+  "name": "eslint-config-crazymax",
+  "version": "0.1.0",
+  "description": "Лучший в мире eslint config",
+  "main": "index.js",
+  "scripts": {
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:Crazymax11/eslint-config-crazymax.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "peerDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-plugin-eslint-comments": "^3.1.2",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^22.19.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "@typescript-eslint/eslint-plugin": "^2.8.0",
+    "@typescript-eslint/parser": "^2.8.0"
+  },
+  "dependencies": {
+    "eslint-config-airbnb-base": "^14.0.0",
+    "eslint-config-prettier": "^6.4.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "typescript": "^3.7.2",
+    "prettier": "^1.18.2",
+    "eslint": "^6.5.1"
+  }
+}
