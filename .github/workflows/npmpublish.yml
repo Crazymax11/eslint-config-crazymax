@@ -27,7 +27,6 @@ jobs:
         with:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
-          scope: '@crazymax11'
       - run: yarn
       - run: npm publish
         env:
