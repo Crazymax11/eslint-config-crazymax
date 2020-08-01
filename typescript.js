@@ -27,14 +27,8 @@ module.exports = {
         // Даже если указать описание типов в JSDoc необязательным, правило все равно ругается
         'valid-jsdoc': 'off',
 
-        /**
-         * для работы react-docgen-typescript с .tsx компонентами
-         * подходят не все экспорты.
-         * @see https://github.com/strothj/react-docgen-typescript-loader#exporting-components
-         * @see https://github.com/strothj/react-docgen-typescript-loader/issues/75
-         * TODO: Написать свое правило?
-         */
-        'import/prefer-default-export': 'warn',
+        'default-case': 'off',
+        'no-useless-constructor': 'off',
         '@typescript-eslint/no-empty-function': 'off',
       },
     },
