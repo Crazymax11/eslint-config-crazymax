@@ -30,6 +30,7 @@ module.exports = {
         'default-case': 'off',
         'no-useless-constructor': 'off',
         '@typescript-eslint/no-empty-function': 'off',
+        '@typescript-eslint/interface-name-prefix': 'off'
       },
     },
   ],
