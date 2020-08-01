@@ -63,6 +63,9 @@ module.exports = {
       },
     ],
     'import/order': 'error',
+    // предпочитаем частичные экспорты
+    'import/no-default-export': 'error',
+    'import/prefer-default-export': 'off',
 
     'no-param-reassign': 'error',
 
